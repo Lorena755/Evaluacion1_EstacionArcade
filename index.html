@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estación Arcade</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Estacion Arcade - ¡Tu entretención total!</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Juegos de la semana</h2>
+            <div class="contenedor-grid">
+                <video src="videos/video1.mp4" controls></video>
+                <video src="videos/video2.mp4" controls></video>
+                <iframe src="https://www.youtube.com/embed/5mSAbS_96V8" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Nuestros productos</h2>
+            <div class="contenedor-grid">
+                <img src="juego1.jpeg" alt="Nintendo Switch">
+                <img src="juego2.jpg" alt="PlayStation 5">
+                <img src="juego3.webp" alt="Xbox Series">
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h2>Contacto</h2>
+            <form action="gracias.html" method="GET">
+                <label>Nombre</label>
+                <input type="text" name="nombre" required minlength="3">
+                
+                <label>Apellido</label>
+                <input type="text" name="apellido" required minlength="3">
+                
+                <label>Correo electrónico</label>
+                <input type="email" name="correo" required>
+                
+                <label>Mensaje</label>
+                <textarea name="mensaje" required minlength="10"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Empresa de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
